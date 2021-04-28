@@ -41,7 +41,7 @@ Hawaii is known for being warm, but does it stay that way year round?</br>
 After setting up our sqlalchemy session, I used two simple queries to pull all temperatures from the Measurement table filtered by month: June and December.</br>
 After making the results DataFrames, the descriptions of each are below.</br>
 
-![june](https://user-images.githubusercontent.com/14188580/116468982-2ad1eb00-a837-11eb-8cbd-8155d8aed53c.PNG)
+![june](https://user-images.githubusercontent.com/14188580/116469089-4f2dc780-a837-11eb-9c29-73fbd4452d1c.PNG)
 ![dec](https://user-images.githubusercontent.com/14188580/116468988-2c9bae80-a837-11eb-95c9-f12ff973a16f.PNG)
 </br>
 

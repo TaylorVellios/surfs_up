@@ -71,5 +71,15 @@ While the ratio between elevation and precipitation is not significant, there ar
 1. We are looking at weather data to avoid precipitation as much as possible for maximum yearly profits.</br>
    With elevation comes increased precipitation.</br>
 2. Why on earth would anybody open a surf shop anywhere but as close to sea-level as possible?</br>
-   Our goal here is to get a return on an investment and the higher elevation weather data is only going to skew our averages upwards.
+   Our goal here is to get a return on an investment for a specific retail store and the higher elevation weather data is only going to skew our averages upwards.</br>
+   
+From here, I decided to plot every month's average by every station to see if there were specific areas in Hawaii that average lower than the rest.</br>
+![download (1)](https://user-images.githubusercontent.com/14188580/116476065-50afbd80-a840-11eb-9218-7ca129e16e73.png)
+</br>
+Given the data above, I would feel confident researching the areas by USC00519397, USC00511918, or USC00517948 as prime locations for a surf shop/ice cream parlor.</br>
+
+![prim_locs](https://user-images.githubusercontent.com/14188580/116476585-0aa72980-a841-11eb-9922-506a273ec35c.PNG)
+
+Now to find out if there is any foot-traffic or a surfable beach nearby....
+
    

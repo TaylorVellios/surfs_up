@@ -45,4 +45,31 @@ After making the results DataFrames, the descriptions of each are below.</br>
 ![dec](https://user-images.githubusercontent.com/14188580/116468988-2c9bae80-a837-11eb-95c9-f12ff973a16f.PNG)
 </br>
 
-# Summary
+From looking at average temperatures for two months from 8 years worth of temperature data, it is pretty evident that Hawaii live up to its warmth claims.</br>
+
+Takeaways:
+* With a maximum temperature of 83 in December, and an average of 71.04, the surfing/ice cream market can survive year round in Hawaii (temp wise)
+* Temperatures between June and December are not very different, the biggest difference is the minimun value.
+* Beware that with our current dataset, we have more values for June than we do for December.</br>
+While another month's worth of data might not outweight the current results significantly, it's good to stay on your toes.</br>
+
+# Summary and Diving Deeper
+Since there is no reasonable investor who would be satisfied with results for only July and December, I wrote a function that can return average temperatures or precipitation levels for each month across every weather station. The output for monthly precipitation averages is below:</br>
+![function_output](https://user-images.githubusercontent.com/14188580/116471045-d54b0d80-a839-11eb-87f0-414275313441.PNG)
+</br>
+Next, I made a dataframe of the Station table and merged it with our average data per station.</br>
+From this point on I have obtained all of the data I would need to plot to show potential investors.</br>
+
+After some initial plotting, I made an executive decision to drop two stations from these results:
+* USC00518838
+* USC00516128
+
+Below is a depiction of the scaled value of average precipitation in December for each Station along with that station's elevation.</br>
+![elev](https://user-images.githubusercontent.com/14188580/116474576-4db3cd80-a83e-11eb-837e-eae3ce53d784.png)
+
+While the ratio between elevation and precipitation is not significant, there are two reasons why I chose to omit these locations:
+1. We are looking at weather data to avoid precipitation as much as possible for maximum yearly profits.</br>
+   With elevation comes increased precipitation.</br>
+2. Why on earth would anybody open a surf shop anywhere but as close to sea-level as possible?</br>
+   Our goal here is to get a return on an investment and the higher elevation weather data is only going to skew our averages upwards.
+   
